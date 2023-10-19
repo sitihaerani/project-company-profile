@@ -692,6 +692,12 @@ a:focus {
 .client_section .heading_container {
   margin-bottom: 30px;
 }
+/*feedback form section*/
+.feedback_section .heading_container {
+  text-align: center;
+  background-color: #00204a;
+  color: #ffffff;
+}
 
 .client_section .box {
   display: -webkit-box;
