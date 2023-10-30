@@ -1,5 +1,5 @@
 <?php
-
+// $isSent = false;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -8,7 +8,20 @@ require_once "library/Exception.php";
 require_once "library/OAuth.php";
 require_once "library/POP3.php";
 require_once "library/SMTP.php";
- 
+
+
+function sendEmail(){
+	$nama= $_POST['name'];
+	$email= $_POST['email'];
+	$kontak= $_POST['kontak'];
+	$pesan= $_POST['pesan'];
+	
+	$body= "
+	Nama	: $nama <br/>
+	Email	: $email <br/>
+	No. HP: $kontak <br/>
+	Pesan	: $pesan <br/>
+	";
 	$mail = new PHPMailer;
  
 	//Enable SMTP debugging. 
@@ -27,28 +40,27 @@ require_once "library/SMTP.php";
 	//Set TCP port to connect to 
 	$mail->Port = 587;                                   
  
-	$mail->From = $_POST['email']; //email pengirim
-	$mail->FromName = $_POST['name']; //e pengirim
- 
-	 $mail->addAddress("nenur2001@gmail.com", $_POST['name']); //email penerima
+	$mail->From = $email; //email pengirim
+	$mail->FromName = $nama; //email pengirim
+  $mail->AddReplyTo($email,'user');
+	$mail->addAddress("nentinur300901@gmail.com", $nama); //email penerima
  
 	$mail->isHTML(true);
  
-	$mail->Subject = "Pesan baru dari {$_POST['name']}"; //subject
-    $mail->Body    = $_POST['pesan']; //isi email
+	$mail->Subject = "Pesan baru dari $nama"; //subject
+    $mail->Body    = $body; //isi email
         $mail->AltBody = "PHP mailer"; //body email (optional)
  
 	if(!$mail->send()) 
 	{  
-      echo '<div class="alert alert-danger" role="alert">
-							A simple danger alert—check it out!
-						</div>';
+		return false;
 	} 
 	else 
 	{
-	    echo '<div class="alert alert-success" role="alert">
-							A simple success alert—check it out!
-						</div>';
+		return true;
 	}
+}
+ 
+	
 
 ?>

@@ -2,6 +2,7 @@
 $judul = 'Home'; // judul halaman
 $home = true;
 include('layout/header.php'); // memanggil layout header
+require 'kirim.php';
  ?>
       <!-- slider section -->
       <section class="slider_section">
@@ -317,14 +318,32 @@ include('layout/header.php'); // memanggil layout header
 
     <!-- feedback form section -->
 
-    <section class="feedback_section layout_padding">
+    <section id="form" class="feedback_section layout_padding">
       <div class="container">
         <div class="heading_container heading_center psudo_white_primary mb_45">
           <h2>Contact <span>Us</span></h2>
         </div>
         <br>
+        <div>
+          <?php 
+        if (isset($_POST['submit'])) {
+          if (sendEmail() == true) { ?>
+              <!-- Alert sukses - jika data berhasil ditambahkan ke database -->
+              <div class="alert alert-success" role="alert">
+                  Email Berhasil dikirim!
+              </div>
+          <?php } else { ?>
+              <!-- Alert gagal - jika gagal ditambahkan ke database -->
+              <div class="alert alert-danger" role="alert">
+                  Email Gagal dikirim!
+              </div>
+      <?php }
+      } 
+        ?>
+        </div>
+        <br>
         <div class="feedback-form">
-          <form id="feedbackForm" action="kirim.php" method="post">
+          <form id="feedbackForm" action="#form" method="post">
             <div class="form-group">
               <label for="name">Your Name:</label>
               <input
@@ -365,7 +384,7 @@ include('layout/header.php'); // memanggil layout header
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-info">Kirim Email</button>
+            <button name="submit" type="submit" class="btn btn-info">Kirim Email</button>
           </form>
         </div>
       </div>
