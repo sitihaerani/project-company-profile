@@ -54,11 +54,10 @@
             <div class="info_link_box">
               <h4>Links</h4>
               <div class="info_links">
-                <a class="active" href="index.html"> Home </a>
-                <a class="" href="about.html"> Tentang Kami </a>
-                <a class="" href="service.html"> Bidang Usaha </a>
-                <a class="" href="why.html"> Why Us </a>
-                <a class="" href="team.html"> Team </a>
+                <a class="active" href="index.php"> Home </a>
+                <a class="" href="about.php"> About Us </a>
+                <a class="" href="service.php"> Services </a>
+                <a class="" href="why.php"> Why Us </a>
               </div>
             </div>
           </div>
