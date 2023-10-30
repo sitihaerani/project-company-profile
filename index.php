@@ -746,7 +746,7 @@
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-info">Submit Feedback</button>
+            <button type="submit" class="btn btn-info">Kirim Email</button>
           </form>
         </div>
       </div>

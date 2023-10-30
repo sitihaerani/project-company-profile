@@ -12,7 +12,7 @@ require_once "library/SMTP.php";
 	$mail = new PHPMailer;
  
 	//Enable SMTP debugging. 
-	$mail->SMTPDebug = 3;                               
+	// $mail->SMTPDebug = 3;                               
 	//Set PHPMailer to use SMTP.
 	$mail->isSMTP();            
 	//Set SMTP host name                          
@@ -39,12 +39,16 @@ require_once "library/SMTP.php";
         $mail->AltBody = "PHP mailer"; //body email (optional)
  
 	if(!$mail->send()) 
-	{
-	    echo "Mailer Error: " . $mail->ErrorInfo;
+	{  
+      echo '<div class="alert alert-danger" role="alert">
+							A simple danger alert—check it out!
+						</div>';
 	} 
 	else 
 	{
-	    echo "Message has been sent successfully";
+	    echo '<div class="alert alert-success" role="alert">
+							A simple success alert—check it out!
+						</div>';
 	}
 
 ?>
