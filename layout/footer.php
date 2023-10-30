@@ -82,6 +82,10 @@
           &copy; <span id="displayYear"></span> All Rights Reserved By
           <a href="https://github.com/nentinur/">@nentinur</a> &
           <a href="https://github.com/sitihaerani/">@sitihaerani</a>
+          <a href="https://wa.me/62817305222?text=hi%20delfa!" target="_blank" class="whatsapp-float">
+            <img src="images/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+            <span class="tooltip-text">Ada pertanyaan? Silakan hubungi kami!</span>
+          </a>
         </p>
       </div>
     </section>

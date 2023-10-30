@@ -42,7 +42,7 @@
     <link href="css/responsive.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="sub_page">
     <div class="hero_area">
       <div class="hero_bg_box">
         <div class="bg_img_box">
@@ -84,24 +84,24 @@ $why = false;
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html"
+                  <a class="nav-link" href="index.php"
                     >Home <?php if ($home == true) : ?> 
                       <span class="sr-only">(current)</span>
                       <?php endif; ?></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About Us <?php if ($about == true) : ?> 
+                  <a class="nav-link" href="about.php"> About Us <?php if ($about == true) : ?> 
                       <span class="sr-only">(current)</span>
                       <?php endif; ?></span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">Services <?php if ($service == true) : ?> 
+                  <a class="nav-link" href="service.php">Services <?php if ($service == true) : ?> 
                       <span class="sr-only">(current)</span>
                       <?php endif; ?></span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="why.html">Why Us <?php if ($why == true) : ?> 
+                  <a class="nav-link" href="why.php">Why Us <?php if ($why == true) : ?> 
                       <span class="sr-only">(current)</span>
                       <?php endif; ?></span></a>
                 </li>
