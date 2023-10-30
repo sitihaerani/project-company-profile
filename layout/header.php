@@ -75,35 +75,19 @@
             >
               <span class=""> </span>
             </button>
-<?php 
-$home = false;
-$about = false;
-$service = false;
-$why = false;
- ?>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.php"
-                    >Home <?php if ($home == true) : ?> 
-                      <span class="sr-only">(current)</span>
-                      <?php endif; ?></a
-                  >
+                <li class="nav-item <?php echo isset($home) ? 'active' : ''; ?>">
+                  <a class="nav-link" href="index.php">Home </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.php"> About Us <?php if ($about == true) : ?> 
-                      <span class="sr-only">(current)</span>
-                      <?php endif; ?></span></a>
+                <li class="nav-item <?php echo isset($about) ? 'active' : ''; ?>">
+                  <a class="nav-link" href="about.php"> About Us </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="service.php">Services <?php if ($service == true) : ?> 
-                      <span class="sr-only">(current)</span>
-                      <?php endif; ?></span></a>
+                <li class="nav-item <?php echo isset($service) ? 'active' : ''; ?>">
+                  <a class="nav-link" href="service.php">Services </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="why.php">Why Us <?php if ($why == true) : ?> 
-                      <span class="sr-only">(current)</span>
-                      <?php endif; ?></span></a>
+                <li class="nav-item <?php echo isset($why) ? 'active' : ''; ?>">
+                  <a class="nav-link" href="why.php">Why Us </a>
                 </li>
                 <!-- 
                   <li class="nav-item">
