@@ -946,6 +946,7 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -953,6 +954,8 @@ a:focus {
   z-index: 1000;
   opacity: 0.7;
   transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
 }
 
 .whatsapp-float:hover {
@@ -965,24 +968,23 @@ a:focus {
   border-radius: 50%;
 }
 
-.whatsapp-text {
-  display: inline-block;
-  font-size: 14px;
+.tooltip-text {
+  position: absolute;
+  background-color:  #10af4a;
   color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  right: 60px; 
+  top: 50%; 
+  transform: translateY(-50%); 
   opacity: 0;
-  transition: opacity 0.3s;
-  cursor: help; /* Ubah kursor menjadi "help" saat dihover */
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  white-space: nowrap; 
 }
 
-.whatsapp-float:hover .whatsapp-text {
+.whatsapp-float:hover .tooltip-text {
   opacity: 1;
+  visibility: visible;
 }
 
-
-
-
-
-
-
-
-/*# sourceMappingURL=style.css.map */
