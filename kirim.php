@@ -1,5 +1,5 @@
 <?php
-// $isSent = false;
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -43,7 +43,7 @@ function sendEmail(){
 	$mail->From = $email; //email pengirim
 	$mail->FromName = $nama; //email pengirim
   $mail->AddReplyTo($email,'user');
-	$mail->addAddress("nentinur300901@gmail.com", $nama); //email penerima
+	$mail->addAddress("delfamadani@gmail.com", $nama); //email penerima
  
 	$mail->isHTML(true);
  

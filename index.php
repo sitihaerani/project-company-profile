@@ -25,9 +25,6 @@ require 'kirim.php';
                         meningkatkan akses dan kualitas layanan kesehatan bagi
                         masyarakat..
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1"> Read More </a>
-                      </div>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -54,9 +51,6 @@ require 'kirim.php';
                         sekolah hingga universitas, kami mendukung pengajaran
                         dan pembelajaran yang efektif dan inovatif.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1"> Read More </a>
-                      </div>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -85,9 +79,6 @@ require 'kirim.php';
                         memberikan hasil terbaik yang sesuai dengan standar
                         keselamatan dan kualitas yang tinggi.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1"> Read More </a>
-                      </div>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -138,7 +129,6 @@ require 'kirim.php';
                   </p>
                   <br />
                   <br />
-                  <a href=""> Read More </a>
                 </div>
               </div>
             </div>
@@ -158,7 +148,6 @@ require 'kirim.php';
                   </p>
                   <br />
                   <br />
-                  <a href=""> Read More </a>
                 </div>
               </div>
             </div>
@@ -178,7 +167,6 @@ require 'kirim.php';
                     terbaik yang sesuai dengan standar keselamatan dan kualitas
                     yang tinggi.
                   </p>
-                  <a href=""> Read More </a>
                 </div>
               </div>
             </div>
@@ -195,10 +183,6 @@ require 'kirim.php';
       <div class="container">
         <div class="heading_container heading_center">
           <h2>About <span>Us</span></h2>
-          <p>
-            Magni quod blanditiis non minus sed aut voluptatum illum quisquam
-            aspernatur ullam vel beatae rerum ipsum voluptatibus
-          </p>
         </div>
         <div class="row">
           <div class="col-md-6">
@@ -235,7 +219,6 @@ require 'kirim.php';
                 Madani, solusi pengadaan terdepan untuk masa depan yang lebih
                 baik.
               </p>
-              <a href=""> Read More </a>
             </div>
           </div>
         </div>
@@ -308,9 +291,6 @@ require 'kirim.php';
             </div>
           </div>
         </div>
-        <div class="btn-box">
-          <a href=""> Read More </a>
-        </div>
       </div>
     </section>
 
@@ -345,7 +325,7 @@ require 'kirim.php';
         <div class="feedback-form">
           <form id="feedbackForm" action="#form" method="post">
             <div class="form-group">
-              <label for="name">Your Name:</label>
+              <label for="name">Nama:</label>
               <input
                 type="text"
                 id="name"
@@ -355,7 +335,7 @@ require 'kirim.php';
               />
             </div>
             <div class="form-group">
-              <label for="email">Your Email:</label>
+              <label for="email">Email:</label>
               <input
                 type="email"
                 id="email"
@@ -365,7 +345,7 @@ require 'kirim.php';
               />
             </div>
             <div class="form-group">
-              <label for="kontak">Phone Number:</label>
+              <label for="kontak">No. Telpon:</label>
               <input
                 type="text"
                 id="kontak"

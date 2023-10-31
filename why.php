@@ -68,9 +68,6 @@ include('layout/header.php'); // memanggil layout header
             </div>
           </div>
         </div>
-        <div class="btn-box">
-          <a href=""> Read More </a>
-        </div>
       </div>
     </section>
 

@@ -28,7 +28,6 @@ include('layout/header.php'); // memanggil layout header
                   </p>
                   <br />
                   <br />
-                  <a href=""> Read More </a>
                 </div>
               </div>
             </div>
@@ -48,7 +47,6 @@ include('layout/header.php'); // memanggil layout header
                   </p>
                   <br />
                   <br />
-                  <a href=""> Read More </a>
                 </div>
               </div>
             </div>
@@ -68,7 +66,6 @@ include('layout/header.php'); // memanggil layout header
                     terbaik yang sesuai dengan standar keselamatan dan kualitas
                     yang tinggi.
                   </p>
-                  <a href=""> Read More </a>
                 </div>
               </div>
             </div>

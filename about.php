@@ -45,7 +45,6 @@ include('layout/header.php'); // memanggil layout header
                 Madani, solusi pengadaan terdepan untuk masa depan yang lebih
                 baik.
               </p>
-              <a href=""> Read More </a>
             </div>
           </div>
         </div>
