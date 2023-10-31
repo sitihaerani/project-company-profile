@@ -9,7 +9,7 @@
               <div class="contact_link_box">
                 <a href="https://www.google.com/maps/place/Jl.+Akita+2+No.9,+Bojongsoang,+Kec.+Bojongsoang,+Kabupaten+Bandung,+Jawa+Barat+40288/@-6.9821482,107.6368202,19z/data=!3m1!4b1!4m5!3m4!1s0x2e68e9bbba24659f:0x22fddcc9f9cc274b!8m2!3d-6.9821495!4d107.6374639?entry=ttu">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span> Jalan Akita 2 No. 9M Bojongsoang Bandung </span>
+                  <span> Jalan Cikoneng Ruko Alkita 2 No. 8E Bojongsoang, Bandung </span>
                 </a>
                 <a href="https://www.google.com/maps/place/MITRA+EDUKASI+INDONESIA/@-6.9393858,107.7138487,21z/data=!4m6!3m5!1s0x2e68c2df564f654b:0x49b42dd5d7bbf725!8m2!3d-6.9394676!4d107.7140232!16s%2Fg%2F11j11shhxm?entry=ttu">
                   <i class="fa fa-solid fa-building" aria-hidden="true"></i>
