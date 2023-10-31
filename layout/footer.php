@@ -7,11 +7,11 @@
             <div class="info_contact">
               <h4>Address</h4>
               <div class="contact_link_box">
-                <a href="https://www.google.com/maps/place/Jl.+Akita+2+No.9,+Bojongsoang,+Kec.+Bojongsoang,+Kabupaten+Bandung,+Jawa+Barat+40288/@-6.9821482,107.6368202,19z/data=!3m1!4b1!4m5!3m4!1s0x2e68e9bbba24659f:0x22fddcc9f9cc274b!8m2!3d-6.9821495!4d107.6374639?entry=ttu">
+                <a href="https://www.google.com/maps/place/Ruko+akita+1/@-6.9819889,107.6365129,18.67z/data=!4m6!3m5!1s0x2e68e95cf0e9037d:0x432fb742a81987a6!8m2!3d-6.9819833!4d107.637514!16s%2Fg%2F11h_6xtwkj?entry=ttu">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span> Jalan Cikoneng Ruko Alkita 2 No. 8E, Bojongsoang, Bandung</span>
+                  <span> Jalan Cikoneng Ruko Alkita 2 No. 8E Bojongsoang, Bandung </span>
                 </a>
-                <a href="https://www.google.com/maps/search/Jalan+Cikoneng+Ruko+Alkita+2+No.+8E,+Bojongsoang,+Bandung/@-6.9848358,107.6345145,15z/data=!3m1!4b1?entry=ttu">
+                <a href="https://www.google.com/maps/place/MITRA+EDUKASI+INDONESIA/@-6.9393858,107.7138487,21z/data=!4m6!3m5!1s0x2e68c2df564f654b:0x49b42dd5d7bbf725!8m2!3d-6.9394676!4d107.7140232!16s%2Fg%2F11j11shhxm?entry=ttu">
                   <i class="fa fa-solid fa-building" aria-hidden="true"></i>
                   <span> Perumahan Bumi Panyileukan B4 No. 5 Bandung </span>
                 </a>
